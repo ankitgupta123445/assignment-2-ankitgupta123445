@@ -8,8 +8,8 @@ package problem3.node;
 
 public class Node {
         private String data;
-        private Node next = null;
-        private int priority;
+        public Node next = null;
+        public int priority;
 
         public Node(String data, int priority) {
                 this.data = data;
