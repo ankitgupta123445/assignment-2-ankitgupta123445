@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e2bae70d-6ecb-4a89-a602-e943d4c553ac" name="Default Changelist" comment="" />
+    <list default="true" id="e2bae70d-6ecb-4a89-a602-e943d4c553ac" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/problem1/main/MyMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/problem1/main/MyMain.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -32,6 +35,26 @@
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
+  <component name="RunManager">
+    <configuration name="MyMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="problem1.main.MyMain" />
+      <module name="assignment-2-ankitgupta123445" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="problem1.main.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.MyMain" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -42,7 +65,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1585394203387</updated>
-      <workItem from="1585394210057" duration="3851000" />
+      <workItem from="1585394210057" duration="4400000" />
     </task>
     <task id="LOCAL-00001" summary="init commit">
       <created>1585394357209</created>
@@ -86,7 +109,14 @@
       <option name="project" value="LOCAL" />
       <updated>1585398265328</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="MyBinarySearchTree class done">
+      <created>1585399190326</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1585399190326</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -97,7 +127,8 @@
     <MESSAGE value="MyBinarySearchTree class created" />
     <MESSAGE value="treeNode class done" />
     <MESSAGE value="insert method is created" />
-    <option name="LAST_COMMIT_MESSAGE" value="insert method is created" />
+    <MESSAGE value="MyBinarySearchTree class done" />
+    <option name="LAST_COMMIT_MESSAGE" value="MyBinarySearchTree class done" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
@@ -107,10 +138,26 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="574" y="131" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1585397384612" />
-    <state x="311" y="11" key="CommitChangelistDialog2" timestamp="1585398263990">
+    <state x="311" y="70" width="913" height="743" key="CommitChangelistDialog2" timestamp="1585399188675">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="311" y="11" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1585398263990" />
+    <state x="311" y="70" width="913" height="743" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1585399188675" />
+    <state width="1537" height="218" key="GridCell.Tab.0.bottom" timestamp="1585399548244">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1537" height="218" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1585399548244" />
+    <state width="1537" height="218" key="GridCell.Tab.0.center" timestamp="1585399548244">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1537" height="218" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1585399548244" />
+    <state width="1537" height="218" key="GridCell.Tab.0.left" timestamp="1585399548244">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1537" height="218" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1585399548244" />
+    <state width="1537" height="218" key="GridCell.Tab.0.right" timestamp="1585399548244">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1537" height="218" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1585399548244" />
     <state x="361" y="148" key="Vcs.Push.Dialog.v2" timestamp="1585394667615">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
