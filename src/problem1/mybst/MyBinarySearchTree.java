@@ -5,10 +5,10 @@
  *  Time: 7:17 PM
  */
 package problem1.mybst;
+// to implement BinarySearchTree
 
 import problem1.node.TreeNode;
 
-// to implement BinarySearchTree
 public class MyBinarySearchTree {
         private TreeNode root = null;
         private int max = 0;
@@ -39,5 +39,58 @@ public class MyBinarySearchTree {
                                 parent.setRight(node);
                         }
                 }
+        }
+
+        public void traversePreorder(TreeNode ni) {
+                if (ni == null) {
+                        System.out.print("");
+                } else {
+                        System.out.print(ni.getData() +
+                                " ");
+                        traversePreorder(ni.getLeft());
+                        traversePreorder(ni.getRight());
+
+                }
+        }
+
+        public void traversePostorder(TreeNode ni) {
+                if (ni == null) {
+                        System.out.print("");
+                } else {
+
+                        traversePostorder(ni.getLeft());
+                        traversePostorder(ni.getRight());
+                        System.out.print(ni.getData() +
+                                " ");
+
+                }
+
+        }
+
+        public void traverse(TreeNode k) {
+
+
+                leftnode(k, 1);
+
+        }
+
+        public void leftnode(TreeNode node, int level) {
+                if (node == null) {
+                        return;
+                }
+                if (max < level) {
+                        System.out.print(node.getData() + " ");
+                        max = level;
+
+                }
+
+                if (node.getLeft() == null) {
+                        count++;
+                        max = max + 1;
+                }
+                leftnode(node.getLeft(), level + 1);
+                leftnode(node.getRight(), level + 1);
+
+
         }
 }

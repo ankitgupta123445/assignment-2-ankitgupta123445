@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e2bae70d-6ecb-4a89-a602-e943d4c553ac" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/problem1/mybst/MyBinarySearchTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/problem1/mybst/MyBinarySearchTree.java" afterDir="false" />
-    </list>
+    <list default="true" id="e2bae70d-6ecb-4a89-a602-e943d4c553ac" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -45,7 +42,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1585394203387</updated>
-      <workItem from="1585394210057" duration="3230000" />
+      <workItem from="1585394210057" duration="3851000" />
     </task>
     <task id="LOCAL-00001" summary="init commit">
       <created>1585394357209</created>
@@ -82,7 +79,14 @@
       <option name="project" value="LOCAL" />
       <updated>1585397489744</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="insert method is created">
+      <created>1585398265328</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1585398265328</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -92,7 +96,8 @@
     <MESSAGE value="init commit" />
     <MESSAGE value="MyBinarySearchTree class created" />
     <MESSAGE value="treeNode class done" />
-    <option name="LAST_COMMIT_MESSAGE" value="treeNode class done" />
+    <MESSAGE value="insert method is created" />
+    <option name="LAST_COMMIT_MESSAGE" value="insert method is created" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
@@ -102,10 +107,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="574" y="131" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1585397384612" />
-    <state x="311" y="11" key="CommitChangelistDialog2" timestamp="1585397487120">
+    <state x="311" y="11" key="CommitChangelistDialog2" timestamp="1585398263990">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="311" y="11" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1585397487120" />
+    <state x="311" y="11" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1585398263990" />
     <state x="361" y="148" key="Vcs.Push.Dialog.v2" timestamp="1585394667615">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
