@@ -6,7 +6,6 @@
  */
 package problem3.myqueue;
 import problem3.node.Node;
-
 public class MyPriorityQueue {
 
         private Node head = null;
@@ -38,6 +37,21 @@ public class MyPriorityQueue {
 
                 }
 
+        }
+
+        public String peek() {
+                return head.getData();
+        }
+
+        public void print() {
+                Node temp = head;
+
+                for (int i = 0; i < size && temp != null; i++) {
+                        String data = temp.getData();
+                        int Rollno = temp.getPriority();
+                        System.out.println(Rollno + " " + data + (i < size - 1 ? "," : " "));
+                        temp = temp.getNext();
+                }
         }
 
 
