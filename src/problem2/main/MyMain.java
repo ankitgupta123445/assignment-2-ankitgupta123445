@@ -37,6 +37,7 @@ public class MyMain {
                 myBinarySearchTree.insert(18);
                 myBinarySearchTree.insert(15);
                 myBinarySearchTree.insert(1);
+                System.out.println();
 
                 System.out.println("Traverse the tree in PreOrder :");
                 traversePreOrder(myBinarySearchTree.getRoot());
