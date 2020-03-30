@@ -72,5 +72,15 @@ public class MyCircularQueue {
                 return size == maxSize;
         }
 
+        public void add(Student element) {
+                if (!isFull()) {
+                        circularQueue[rear] = element;
+                        rear = (rear + 1) % maxSize;
+                        size++;
+                } else {
+                        System.out.println("Queue is full.");
+                }
+        }
+
 
 }
