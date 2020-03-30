@@ -8,8 +8,10 @@ package problem1.mybst;
 // to implement BinarySearchTree
 
 import problem1.node.TreeNode;
+import problem4.myqueue.MyQueue;
 
 public class MyBinarySearchTree {
+        MyQueue myQueue = new MyQueue();
         private TreeNode root = null;
         private int max = 0;
         private int count = 0;
@@ -72,6 +74,18 @@ public class MyBinarySearchTree {
 
                 leftnode(k, 1);
 
+        }
+
+        //This is created only for question no .4
+        public void preOrder(TreeNode rot) {
+                if (rot == null) {
+                        System.out.print(" not exist");
+                } else {
+                        myQueue.add(rot.getData());
+                        traversePreorder(rot.getLeft());
+                        traversePreorder(rot.getRight());
+
+                }
         }
 
         public void leftnode(TreeNode node, int level) {
