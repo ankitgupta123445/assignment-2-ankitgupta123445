@@ -20,6 +20,40 @@ public class MyQueue {
                 return response;
         }
 
+        private void addFirst(int item) {
+                Node node1 = new Node(null, null, item);
+                head = node1;
+                tail = node1;
+                size++;
+        }
+
+        private void addAfter(Node node, int item) {
+                Node node5 = node.next;
+                if (node5 == null) {
+                        Node node3 = new Node(null, node, item);
+                        tail = node3;
+                        node.next = node3;
+                        size++;
+                }
+
+        }
+
+        private void addAt(int index, int item) {
+                if (index < 0 || index > size) {
+                        throw new IndexOutOfBoundsException(Integer.toString(index));
+                } else if (index == 0) {
+                        addFirst(item);
+
+                } else {
+
+                        addAfter(getNode(index - 1), item);
+                }
+        }
+
+        public void add(int item) {
+                addAt(size, item);
+        }
+
         private static class Node<E> {
                 private Node next;
                 private Node previous;
