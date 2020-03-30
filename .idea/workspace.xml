@@ -4,9 +4,6 @@
     <list default="true" id="e2bae70d-6ecb-4a89-a602-e943d4c553ac" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/problem5/circularqueue/MyCircularQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/problem5/circularqueue/MyCircularQueue.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/problem5/main/MyMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/problem5/main/MyMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/problem5/node/Node.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/problem5/student/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/problem5/student/Student.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -112,7 +109,7 @@
       <updated>1585394203387</updated>
       <workItem from="1585394210057" duration="6093000" />
       <workItem from="1585402035509" duration="4440000" />
-      <workItem from="1585579911614" duration="454000" />
+      <workItem from="1585579911614" duration="1027000" />
     </task>
     <task id="LOCAL-00001" summary="init commit">
       <created>1585394357209</created>
@@ -219,7 +216,14 @@
       <option name="project" value="LOCAL" />
       <updated>1585403938156</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="student class is completed">
+      <created>1585580421514</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1585580421514</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -238,7 +242,8 @@
     <MESSAGE value="transversePreOrder() and transversePostOrder() method is completed" />
     <MESSAGE value="main() method is completed" />
     <MESSAGE value="DONE" />
-    <option name="LAST_COMMIT_MESSAGE" value="DONE" />
+    <MESSAGE value="student class is completed" />
+    <option name="LAST_COMMIT_MESSAGE" value="student class is completed" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
@@ -248,10 +253,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="574" y="131" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1585397384612" />
-    <state x="351" y="81" width="913" height="743" key="CommitChangelistDialog2" timestamp="1585403936644">
+    <state x="351" y="81" width="913" height="743" key="CommitChangelistDialog2" timestamp="1585580417629">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="351" y="81" width="913" height="743" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1585403936644" />
+    <state x="351" y="81" width="913" height="743" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1585580417629" />
     <state width="1537" height="218" key="GridCell.Tab.0.bottom" timestamp="1585580276140">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
