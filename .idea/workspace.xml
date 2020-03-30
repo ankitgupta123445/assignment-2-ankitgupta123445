@@ -3,9 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="e2bae70d-6ecb-4a89-a602-e943d4c553ac" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/problem1/mybst/MyBinarySearchTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/problem1/mybst/MyBinarySearchTree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/problem4/main/MyMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/problem4/main/MyMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/problem4/myqueue/MyQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/problem4/myqueue/MyQueue.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -126,7 +123,7 @@
       <workItem from="1585394210057" duration="6093000" />
       <workItem from="1585402035509" duration="4440000" />
       <workItem from="1585579911614" duration="3592000" />
-      <workItem from="1585583875527" duration="1700000" />
+      <workItem from="1585583875527" duration="1998000" />
     </task>
     <task id="LOCAL-00001" summary="init commit">
       <created>1585394357209</created>
@@ -303,7 +300,14 @@
       <option name="project" value="LOCAL" />
       <updated>1585582337172</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="problem 4 is done">
+      <created>1585586483478</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1585586483478</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -331,7 +335,8 @@
     <MESSAGE value="remove() method" />
     <MESSAGE value="peek() method and poll() method" />
     <MESSAGE value="MyQueue class done" />
-    <option name="LAST_COMMIT_MESSAGE" value="MyQueue class done" />
+    <MESSAGE value="problem 4 is done" />
+    <option name="LAST_COMMIT_MESSAGE" value="problem 4 is done" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
@@ -341,10 +346,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="574" y="131" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1585397384612" />
-    <state x="351" y="81" width="913" height="743" key="CommitChangelistDialog2" timestamp="1585582335544">
+    <state x="351" y="81" width="913" height="743" key="CommitChangelistDialog2" timestamp="1585586480489">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="351" y="81" width="913" height="743" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1585582335544" />
+    <state x="351" y="81" width="913" height="743" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1585586480489" />
     <state width="1537" height="218" key="GridCell.Tab.0.bottom" timestamp="1585586455960">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -361,9 +366,9 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1537" height="218" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1585586455960" />
-    <state x="361" y="148" key="Vcs.Push.Dialog.v2" timestamp="1585403956080">
+    <state x="361" y="148" key="Vcs.Push.Dialog.v2" timestamp="1585586595835">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="148" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1585403956080" />
+    <state x="361" y="148" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1585586595835" />
   </component>
 </project>
