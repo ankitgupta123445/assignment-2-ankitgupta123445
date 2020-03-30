@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e2bae70d-6ecb-4a89-a602-e943d4c553ac" name="Default Changelist" comment="" />
+    <list default="true" id="e2bae70d-6ecb-4a89-a602-e943d4c553ac" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/problem4/myqueue/MyQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/problem4/myqueue/MyQueue.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -106,7 +109,7 @@
       <updated>1585394203387</updated>
       <workItem from="1585394210057" duration="6093000" />
       <workItem from="1585402035509" duration="4440000" />
-      <workItem from="1585579911614" duration="1884000" />
+      <workItem from="1585579911614" duration="2152000" />
     </task>
     <task id="LOCAL-00001" summary="init commit">
       <created>1585394357209</created>
@@ -255,7 +258,21 @@
       <option name="project" value="LOCAL" />
       <updated>1585581762282</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="add() method">
+      <created>1585581922178</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1585581922178</updated>
+    </task>
+    <task id="LOCAL-00023" summary="remove() method">
+      <created>1585582028740</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1585582028740</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -276,11 +293,12 @@
     <MESSAGE value="DONE" />
     <MESSAGE value="student class is completed" />
     <MESSAGE value="my circular queue" />
-    <MESSAGE value="add() method" />
     <MESSAGE value="remove()and  show() method" />
     <MESSAGE value="done" />
     <MESSAGE value="node class" />
-    <option name="LAST_COMMIT_MESSAGE" value="node class" />
+    <MESSAGE value="add() method" />
+    <MESSAGE value="remove() method" />
+    <option name="LAST_COMMIT_MESSAGE" value="remove() method" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
@@ -290,10 +308,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="574" y="131" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1585397384612" />
-    <state x="351" y="81" width="913" height="743" key="CommitChangelistDialog2" timestamp="1585581920277">
+    <state x="351" y="81" width="913" height="743" key="CommitChangelistDialog2" timestamp="1585582023786">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="351" y="81" width="913" height="743" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1585581920277" />
+    <state x="351" y="81" width="913" height="743" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1585582023786" />
     <state width="1537" height="218" key="GridCell.Tab.0.bottom" timestamp="1585581537588">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

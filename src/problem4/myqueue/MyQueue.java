@@ -68,6 +68,29 @@ public class MyQueue {
                 }
         }
 
+        public int peek() {
+                if (head == null) {
+                        throw new NoSuchElementException("Underflow");
+                } else {
+                        System.out.println(head.getData());
+                }
+                return 0;
+        }
+
+
+        public int poll() {
+                System.out.println(head.getData());
+                if (head == null) {
+                        throw new NoSuchElementException("No element");
+                } else {
+                        int pollelement = head.getData();
+                        head = head.next;
+                        size--;
+                        return pollelement;
+                }
+        }
+
+
         private static class Node<E> {
                 private Node next;
                 private Node previous;
