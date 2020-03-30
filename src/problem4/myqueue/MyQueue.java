@@ -77,6 +77,20 @@ public class MyQueue {
                 return 0;
         }
 
+        public void display() {
+                if (head == null) {
+                        System.out.println("Do not exist");
+                } else {
+                        Node temp = head;
+                        for (int i = 0; i < size && temp != null; i++) {
+                                int data = temp.getData();
+                                System.out.print(data + (i < size - 1 ? "," : " "));
+                                temp = temp.getNext();
+                        }
+                }
+                System.out.println("");
+        }
+
 
         public int poll() {
                 System.out.println(head.getData());
