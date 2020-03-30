@@ -7,6 +7,8 @@
 package problem4.myqueue;
 // to create queue to store pre - order successor
 
+import java.util.NoSuchElementException;
+
 public class MyQueue {
         private int size = 0;
         private Node head = null;
@@ -52,6 +54,18 @@ public class MyQueue {
 
         public void add(int item) {
                 addAt(size, item);
+        }
+
+        public int remove() {
+                if (head == null) {
+                        throw new NoSuchElementException("Underflow");
+                } else {
+                        int removeElement = head.getData();
+                        head = head.next;
+                        System.out.println(removeElement);
+                        size--;
+                        return removeElement;
+                }
         }
 
         private static class Node<E> {
