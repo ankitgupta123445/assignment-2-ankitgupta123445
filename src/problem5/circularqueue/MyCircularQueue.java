@@ -82,5 +82,24 @@ public class MyCircularQueue {
                 }
         }
 
+        public Student remove() {
+                Student response = null;
+                if (!isEmpty()) {
+                        size--;
+                        response = circularQueue[front];
+                        front = (front + 1) % maxSize;
+                        return response;
+
+                } else {
+                        return response;
+                }
+        }
+
+        public void show() {
+                for (int i = 0; i < size; i++) {
+                        System.out.println(circularQueue[(i + front) % maxSize]);
+                }
+        }
+
 
 }
